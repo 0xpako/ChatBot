@@ -15,5 +15,5 @@ def CustomChatGPT(user_input):
     messages.append({"role": "assistant", "content": ChatGPT_reply})
     return ChatGPT_reply
 
-iface = gr.Interface(fn=CustomChatGPT, theme=gr.themes.Soft(primary_hue="blue", secondary_hue="blue"), inputs = "text", outputs = "text", title = "VM8Chat - Chat Bot")
+iface = gr.Interface(fn=CustomChatGPT, theme=gr.themes.Soft(primary_hue="orange", secondary_hue="orange"), inputs = "text", outputs = "text", title = "0xpako's Chat Bot")
 iface.launch()
